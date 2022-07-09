@@ -1,1 +1,1 @@
-# BidirectionalShiftRegister
+# Bidirectional Shift Register
