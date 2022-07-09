@@ -1,1 +1,1 @@
-# Bidirectional Shift Register
+# Bi-directional Shift Register
