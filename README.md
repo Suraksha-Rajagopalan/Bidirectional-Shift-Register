@@ -24,11 +24,11 @@ For example, Q1 appears at D2 via the output of OR gate 1 (O1), Q2 appears at D3
 
 On the other hand, if R/L̅ goes low, then A2 gates of the combinational circuits get enabled while A1 gates get deactivated. This causes the outputs of each flip-flop to appear at the input pins of the very-previous flip-flop through their OR gate outputs (except the first flip-flop, FF1). For example, Qn appears at Dn-1 through the output of OR gate n-1 (On-1), … Q3 appears at D2 via the output of OR gate 2 (O2), and Q2 appears at D1 via the output of OR gate 1 (O1). These input bits are latched onto their respective output pins as soon as the leading edge of the clock pulse appears and thus Qn-1 = Qn, …Q2 = Q3 and Q1 = Q2 (green lines). This means that for every clock tick, the data within the register moves left by one bit, provided R/L̅ line is zero.
 
-<img src="https://user-images.githubusercontent.com/91787553/178094237-a0374ae0-1559-4537-8c94-76f8da1cb77b.png">
+<img src="https://user-images.githubusercontent.com/91787553/178094237-a0374ae0-1559-4537-8c94-76f8da1cb77b.png" height="800">
 
 </div>
 
-<h2>Circuit Diagram </h2>
-<img src="https://user-images.githubusercontent.com/91787553/178093742-c33a8359-4b06-42b0-b0de-76b1ed78f27c.png">
+<h2>Circuit Diagram: </h2>
+<img src="https://user-images.githubusercontent.com/91787553/178093742-c33a8359-4b06-42b0-b0de-76b1ed78f27c.png" height="800">
 
 
